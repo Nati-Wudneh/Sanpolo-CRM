@@ -1,0 +1,2632 @@
+[
+  {
+    "num": 1,
+    "name": "Belayneh Kindie Group (BKG)",
+    "sectorGroup": "Existing customer",
+    "whatTheyDo": "Agri-export, edible oil (Phibela), heavy transport, hotels, manufacturing, construction; 5,000+ staff",
+    "whyFit": "EXISTING ORDER — expand to more subsidiaries & sites; ask for internal referral",
+    "fitType": "NEW",
+    "priority": "Customer",
+    "hqPresence": "Addis + Bure/regional"
+  },
+  {
+    "num": 2,
+    "name": "Tracon Trading PLC",
+    "sectorGroup": "Existing customer",
+    "whatTheyDo": "Coffee export, real estate, aluminium, freight, FMCG distribution, pharma import; ~2,000 staff",
+    "whyFit": "EXISTING ORDER — push into pharma-distribution & real-estate offices; coffee-network warm intro",
+    "fitType": "NEW",
+    "priority": "Customer",
+    "hqPresence": "Churchill Rd, Addis"
+  },
+  {
+    "num": 3,
+    "name": "MIDROC Investment Group",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Mining, hotels (Sheraton), real estate, tech, agriculture — dozens of subsidiaries",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 4,
+    "name": "Kerchanshe Group",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Largest coffee exporter; manufacturing, logistics, hospitality, Geely & Caterpillar dealer",
+    "whyFit": "Coffee-network warm intro; auto-dealer parts runs + multi-site offices",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 5,
+    "name": "East African Holding (EAH)",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Cement, FMCG (Tiger Brands), packaging, agro-processing, coal",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 6,
+    "name": "Sunshine Investment Group",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Construction, real estate — many project sites",
+    "whyFit": "Plans, contracts & samples between HQ and project sites beat cars in traffic",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 7,
+    "name": "Get-As International",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Real estate, construction, import/trade",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 8,
+    "name": "Ovid Group",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Real estate, trading, construction",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 9,
+    "name": "KK PLC",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Textiles, real estate, logistics",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 10,
+    "name": "Sur Construction",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Large contractor, multiple sites",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 11,
+    "name": "Flintstone Homes",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Residential developer, many sites & sales offices",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 12,
+    "name": "Ayat Real Estate",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Large residential developer",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 13,
+    "name": "Gift Real Estate",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Residential & commercial developer",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 14,
+    "name": "Noah Real Estate",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Residential developer, multiple sites",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 15,
+    "name": "NAS Group / NAS Foods",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Food & diversified trading",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 16,
+    "name": "Sami/Elmi Olindo & other big contractors",
+    "sectorGroup": "Conglomerate / large group",
+    "whatTheyDo": "Construction groups",
+    "whyFit": "Big multi-site group (HQ, factories, offices) — high-frequency internal document & sample runs; your proven Belayneh Kindie / Tracon pattern",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 17,
+    "name": "Commercial Bank of Ethiopia (CBE)",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Largest bank; ~1,900+ branches, 35,000+ staff",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 18,
+    "name": "Awash Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Largest private bank; ~875 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 19,
+    "name": "Bank of Abyssinia",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~900+ branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 20,
+    "name": "Dashen Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~835 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 21,
+    "name": "Cooperative Bank of Oromia",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~467 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 22,
+    "name": "Hibret (United) Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~473 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 23,
+    "name": "Oromia Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~503 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 24,
+    "name": "Bunna Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~465 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 25,
+    "name": "Nib International Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~410 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 26,
+    "name": "Amhara Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~321 branches, expanding fast",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 27,
+    "name": "Abay Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~279 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 28,
+    "name": "Lion (Anbesa) International Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~278 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 29,
+    "name": "Wegagen Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Established branch network",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 30,
+    "name": "Zemen Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Corporate-focused, growing branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 31,
+    "name": "Enat Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~174 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 32,
+    "name": "Berhan Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Mid-size network",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 33,
+    "name": "Addis International Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~146 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 34,
+    "name": "Global Bank Ethiopia (Debub Global)",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "~152 branches",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 35,
+    "name": "Siinqee Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Former OCSSCO, large network",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + Oromia"
+  },
+  {
+    "num": 36,
+    "name": "Development Bank of Ethiopia",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Policy/development bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 37,
+    "name": "Tsehay Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Newer commercial bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 38,
+    "name": "Ahadu Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Newer commercial bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 39,
+    "name": "Hijra Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Interest-free bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 40,
+    "name": "ZamZam Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Interest-free bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 41,
+    "name": "Goh Betoch Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Mortgage bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 42,
+    "name": "Gadaa Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Newer commercial bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 43,
+    "name": "Sidama Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Regional commercial bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Hawassa/Addis"
+  },
+  {
+    "num": 44,
+    "name": "Rammis Bank",
+    "sectorGroup": "Bank",
+    "whatTheyDo": "Interest-free bank",
+    "whyFit": "Dense branch network in Addis → daily inter-branch document, cheque & card courier",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 45,
+    "name": "Ethiopian Insurance Corporation",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Largest insurer (state), many branches",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 46,
+    "name": "Awash Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Large private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 47,
+    "name": "Nyala Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Major private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 48,
+    "name": "Nile Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Major private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 49,
+    "name": "United Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Major private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 50,
+    "name": "Nib Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Major private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 51,
+    "name": "Africa Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 52,
+    "name": "Oromia Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 53,
+    "name": "Global Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 54,
+    "name": "Lion Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 55,
+    "name": "Abay Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 56,
+    "name": "Bunna Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 57,
+    "name": "Tsehay Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 58,
+    "name": "Ethio Life & General Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 59,
+    "name": "Zemen Insurance",
+    "sectorGroup": "Insurance",
+    "whatTheyDo": "Private insurer",
+    "whyFit": "Policy documents & claims paperwork shuttled between branches and HQ",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 60,
+    "name": "Amhara Credit & Savings Institution (ACSI)",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "One of the largest MFIs; huge branch network",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Amhara/Addis"
+  },
+  {
+    "num": 61,
+    "name": "Dedebit Credit & Savings (DECSI)",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "Large MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Tigray/Addis"
+  },
+  {
+    "num": 62,
+    "name": "Omo Microfinance",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "Large regional MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "SNNPR/Addis"
+  },
+  {
+    "num": 63,
+    "name": "Addis Credit & Savings Institution",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "City MFI, many branches",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 64,
+    "name": "Wisdom Microfinance",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "National MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 65,
+    "name": "Buusaa Gonofaa MFI",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis/Oromia"
+  },
+  {
+    "num": 66,
+    "name": "Vision Fund Ethiopia",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "MFI (World Vision)",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 67,
+    "name": "Metemamen MFI",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 68,
+    "name": "PEACE MFI",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 69,
+    "name": "Specialized Financial & Promotional Institution (SFPI)",
+    "sectorGroup": "Microfinance",
+    "whatTheyDo": "MFI",
+    "whyFit": "Loan files & field paperwork between many small branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 70,
+    "name": "Ethiopian Pharmaceuticals Supply Service (EPSS)",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "National medicine procurement & distribution; hubs nationwide",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + hubs"
+  },
+  {
+    "num": 71,
+    "name": "Kenema Pharmaceuticals",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Addis city pharmacy/retail network",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 72,
+    "name": "Droga Pharma",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Importer & distributor to pharmacies",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Gulele, Addis"
+  },
+  {
+    "num": 73,
+    "name": "East African Pharmaceuticals",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Manufacturer + distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Gerji, Addis"
+  },
+  {
+    "num": 74,
+    "name": "Caroga Pharma",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Distributor (Pfizer, Novartis, Merck)",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Kirkos, Addis"
+  },
+  {
+    "num": 75,
+    "name": "Julphar Ethiopia",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Gulf pharma manufacturer/distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 76,
+    "name": "Cadila Pharmaceuticals (Eth)",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Manufacturer + distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 77,
+    "name": "Sino-Ethiop Associate",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Capsule manufacturer",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 78,
+    "name": "Bethel MedPharm",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Importer & distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 79,
+    "name": "Addis Pharmaceutical Factory (APF)",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Manufacturer",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Adigrat/Addis"
+  },
+  {
+    "num": 80,
+    "name": "Sun Pharma PLC",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Importer/distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 81,
+    "name": "Pharmacure",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Manufacturer",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 82,
+    "name": "Sadan Pharmaceuticals",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Importer/distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 83,
+    "name": "ERA-MED",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Importer/distributor",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 84,
+    "name": "Nova Human Medicine & Medical Equipment",
+    "sectorGroup": "Pharma / health distribution",
+    "whatTheyDo": "Wholesaler",
+    "whyFit": "Daily deliveries to pharmacies, clinics & hospitals — light, urgent, high-frequency loads",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 85,
+    "name": "St. Paul's Hospital Millennium Medical College",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Largest hospital, 700+ beds",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 86,
+    "name": "Black Lion (Tikur Anbessa) Specialized Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Main referral/teaching hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 87,
+    "name": "MCM (Myungsung Christian Medical Center)",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Large private hospital + college",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 88,
+    "name": "Kadisco General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Large private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 89,
+    "name": "St. Gabriel General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Large private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 90,
+    "name": "Nordic Medical Centre",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private clinic serving expats/embassies",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 91,
+    "name": "Hallmark Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 92,
+    "name": "Landmark General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 93,
+    "name": "Bethzatha General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 94,
+    "name": "Hayat Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 95,
+    "name": "Girum General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 96,
+    "name": "Washington Medical Center",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private clinic",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 97,
+    "name": "ICMC General Hospital",
+    "sectorGroup": "Hospital / clinic",
+    "whatTheyDo": "Private hospital",
+    "whyFit": "Lab samples, records, pharmacy & documents between wings, clinics and branches",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 98,
+    "name": "Derba MIDROC Cement",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Major cement producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Oromia/Addis"
+  },
+  {
+    "num": 99,
+    "name": "National Cement S.C.",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Major cement producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Dire Dawa/Addis"
+  },
+  {
+    "num": 100,
+    "name": "Dangote Cement Ethiopia",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Major cement producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Oromia/Addis"
+  },
+  {
+    "num": 101,
+    "name": "Mugher Cement",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "State cement producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Oromia/Addis"
+  },
+  {
+    "num": 102,
+    "name": "Habesha Cement",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Cement producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Oromia/Addis"
+  },
+  {
+    "num": 103,
+    "name": "Lemi National Cement (EAH/West Intl)",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Largest cement factory (2024)",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Amhara/Addis"
+  },
+  {
+    "num": 104,
+    "name": "Abyssinia Integrated Steel",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Steel producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 105,
+    "name": "Kality Metal Products / Kaliti Steel",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Steel & metal products",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 106,
+    "name": "Ethiopian Steel PLC (C&E Brothers)",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Steel producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 107,
+    "name": "Walia Steel Industry",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Steel producer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 108,
+    "name": "Mesfin Industrial Engineering",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "Heavy engineering / vehicle bodies",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Mekelle/Addis"
+  },
+  {
+    "num": 109,
+    "name": "Metals & Engineering Corp (METEC)",
+    "sectorGroup": "Manufacturing – cement/steel/engineering",
+    "whatTheyDo": "State industrial conglomerate",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 110,
+    "name": "National Tobacco Enterprise",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Tobacco products, national distribution",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 111,
+    "name": "Kality Food S.C.",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Pasta/macaroni & food products",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 112,
+    "name": "FAFA Foods",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Blended & baby foods",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 113,
+    "name": "East African Tiger Brands (EAH)",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Biscuits & snacks",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 114,
+    "name": "Shemu Group",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Edible oil, soap, detergent",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis/Amhara"
+  },
+  {
+    "num": 115,
+    "name": "Hamaressa Edible Oil",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Edible oil processor",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Harar/Addis"
+  },
+  {
+    "num": 116,
+    "name": "Abay Edible Oil Factory",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Edible oil processor",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Amhara/Addis"
+  },
+  {
+    "num": 117,
+    "name": "Kadisco Chemical Industry (Asian Paints)",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Paints & chemicals",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 118,
+    "name": "Nifas Silk Paints",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Paints",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 119,
+    "name": "Crown Paints Ethiopia",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Paints",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 120,
+    "name": "Unilever Ethiopia",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "FMCG (home & personal care)",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 121,
+    "name": "African Bamboo",
+    "sectorGroup": "Manufacturing – FMCG/food",
+    "whatTheyDo": "Bamboo products manufacturer",
+    "whyFit": "Plant-to-office document runs, sales-rep mobility, spare-part & sample movement",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 122,
+    "name": "MOHA Soft Drinks Industry",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Pepsi bottler, national distribution",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 123,
+    "name": "East African Bottling S.C.",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Coca-Cola bottler",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 124,
+    "name": "BGI Ethiopia (Castel)",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "St. George beer & beverages",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 125,
+    "name": "Heineken Ethiopia",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Brewer (Walia, Bedele, Harar)",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 126,
+    "name": "Habesha Breweries",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Largest-capacity brewer (Swinkels JV)",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Debre Birhan/Addis"
+  },
+  {
+    "num": 127,
+    "name": "Dashen Brewery",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "National brewer",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Gondar/Addis"
+  },
+  {
+    "num": 128,
+    "name": "Diageo Meta Abo Brewery",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Brewer (Meta beer)",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Sebeta/Addis"
+  },
+  {
+    "num": 129,
+    "name": "Raya Brewery",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Brewer",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Tigray/Addis"
+  },
+  {
+    "num": 130,
+    "name": "Zebidar Brewery",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Brewer",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "SNNPR/Addis"
+  },
+  {
+    "num": 131,
+    "name": "Awash Winery",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Largest winery",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising across outlets",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis/Merti"
+  },
+  {
+    "num": 132,
+    "name": "Ambo Mineral Water (Coca-Cola)",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Oldest mineral water bottler",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Ambo/Addis"
+  },
+  {
+    "num": 133,
+    "name": "Yes Brands (Yes Water)",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Leading bottled water brand",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis/Oromia"
+  },
+  {
+    "num": 134,
+    "name": "Top Water (Abebe Dinku)",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Large bottled-water producer",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 135,
+    "name": "Gold Water (Feda Wak / Gold Group)",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Bottled water, Tatek zone",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Shaggar/Addis"
+  },
+  {
+    "num": 136,
+    "name": "Aqua Addis",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Bottled water",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 137,
+    "name": "One Water",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Bottled water",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 138,
+    "name": "Daily Water",
+    "sectorGroup": "Beverage / brewery / water",
+    "whatTheyDo": "Bottled water",
+    "whyFit": "Sales-rep mobility, order/invoice runs & merchandising (not bulk haul)",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 139,
+    "name": "Ethio Telecom",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "National telecom; shops + agents; runs 'Alle' e-commerce",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 140,
+    "name": "Safaricom Ethiopia",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "2nd telecom; expanding retail & M-Pesa agents",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 141,
+    "name": "Ethiopian Electric Utility",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Power distribution; field & billing ops",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 142,
+    "name": "Ethiopian Electric Power",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Generation/transmission (state)",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 143,
+    "name": "Kifiya Financial Technology",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Fintech / digital services, field agents",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 144,
+    "name": "Chapa Financial Technologies",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Payment gateway",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 145,
+    "name": "ArifPay",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Payment/POS provider",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 146,
+    "name": "BelCash / HelloCash",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "Mobile money / agent network",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 147,
+    "name": "Websprix",
+    "sectorGroup": "Telecom / tech / fintech",
+    "whatTheyDo": "ISP / fibre provider",
+    "whyFit": "SIM/device/document distribution to shops & agents; e-commerce last-mile",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 148,
+    "name": "Purpose Black ETH",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Retail & e-commerce platform",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 149,
+    "name": "ZMall",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Online marketplace + delivery",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 150,
+    "name": "Alle (Ethio Telecom e-commerce)",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "National e-commerce platform",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 151,
+    "name": "Shewa Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Multi-branch supermarket",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 152,
+    "name": "Safeway Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Multi-branch supermarket",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 153,
+    "name": "Queens' Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Multi-branch supermarket",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 154,
+    "name": "Fresh Corner",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Grocery chain",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 155,
+    "name": "Bambis Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Supermarket",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 156,
+    "name": "Novis Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Supermarket chain",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 157,
+    "name": "Friendship Supermarket",
+    "sectorGroup": "E-commerce / retail",
+    "whatTheyDo": "Supermarket",
+    "whyFit": "Inter-branch stock & document movement + own home-delivery",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 158,
+    "name": "klik (KLIK Investment PLC)",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Everything-delivery; 100+ riders",
+    "whyFit": "ALREADY on e-bikes — market proof, not a sale",
+    "fitType": "FLEET",
+    "priority": "Converted",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 159,
+    "name": "Ethiopian Postal Service (EMS)",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "National post & parcels",
+    "whyFit": "ALREADY a Dodai e-bike partner (2023) — watch for fleet-expansion tenders",
+    "fitType": "FLEET",
+    "priority": "Converted",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 160,
+    "name": "beU Delivery",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Food/grocery/parcel/pharmacy; 700k+ users",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 161,
+    "name": "Deliver Addis",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Restaurant/parcel delivery",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 162,
+    "name": "Eshi Express",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Last-mile courier (funded)",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 163,
+    "name": "Go Express",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Same/next-day courier",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 164,
+    "name": "DHL Ethiopia",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Global courier, local last-mile",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 165,
+    "name": "FedEx Ethiopia",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Global courier, local last-mile",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 166,
+    "name": "Aramex Ethiopia",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Courier, local last-mile",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 167,
+    "name": "Asbeza",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Online grocery/errands",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 168,
+    "name": "Telalaki",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Delivery platform",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 169,
+    "name": "Kidame Gebeya",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "Delivery platform",
+    "whyFit": "Runs a rider fleet today — prime fuel-to-e-bike conversion",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 170,
+    "name": "Ethiopian Shipping & Logistics (ESLSE)",
+    "sectorGroup": "Delivery / courier / logistics",
+    "whatTheyDo": "National freight & logistics (state)",
+    "whyFit": "Heavy freight, but HQ/office document runs suit e-bikes",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 171,
+    "name": "Ride (Hybrid Designs)",
+    "sectorGroup": "Ride-hailing / mobility",
+    "whatTheyDo": "Leading ride-hailing app",
+    "whyFit": "Building/running a delivery arm → needs a rider/bike fleet",
+    "fitType": "FLEET",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 172,
+    "name": "ZayRide",
+    "sectorGroup": "Ride-hailing / mobility",
+    "whatTheyDo": "Pioneer e-taxi; has ADDED delivery",
+    "whyFit": "Building/running a delivery arm → needs a rider/bike fleet",
+    "fitType": "FLEET",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 173,
+    "name": "Feres",
+    "sectorGroup": "Ride-hailing / mobility",
+    "whatTheyDo": "Top ride-hailing app",
+    "whyFit": "Building/running a delivery arm → needs a rider/bike fleet",
+    "fitType": "FLEET",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 174,
+    "name": "ETTA Solutions",
+    "sectorGroup": "Ride-hailing / mobility",
+    "whatTheyDo": "Ride-hailing platform",
+    "whyFit": "Building/running a delivery arm → needs a rider/bike fleet",
+    "fitType": "FLEET",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 175,
+    "name": "Yango Ethiopia",
+    "sectorGroup": "Ride-hailing / mobility",
+    "whatTheyDo": "Ride-hailing platform",
+    "whyFit": "Building/running a delivery arm → needs a rider/bike fleet",
+    "fitType": "FLEET",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 176,
+    "name": "Green Motion Ethiopia",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Car rental (green-branded)",
+    "whyFit": "Green-branded rental — natural fit to add an e-bike line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 177,
+    "name": "ABC Car Rent",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Market-leader car rental",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 178,
+    "name": "Hertz Ethiopia",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Global rental brand",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 179,
+    "name": "Avis Ethiopia",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Global rental brand",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 180,
+    "name": "Ethio Car Hire",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Corporate/expat rentals",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 181,
+    "name": "Drive Ethiopia",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Rentals for foreigners/NGOs",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 182,
+    "name": "Sixt Ethiopia",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Global rental brand",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 183,
+    "name": "Unique Car Rent",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Car rental",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 184,
+    "name": "Galaxy Express Services",
+    "sectorGroup": "Car rental / fleet",
+    "whatTheyDo": "Car rental & tours",
+    "whyFit": "Runs a vehicle fleet (fuel cost pain) — cut costs, or add an e-bike rental line for NGO/embassy clients",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 185,
+    "name": "MOENCO (Toyota)",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Toyota distributor & service",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 186,
+    "name": "Nyala Motors (Nissan)",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Nissan distributor",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 187,
+    "name": "Marathon Motors (Hyundai)",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Hyundai assembler/dealer (Haile G.)",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 188,
+    "name": "Belayab Motors",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Assembler/dealer (Kia/Foton etc.)",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 189,
+    "name": "Orbis Trading (Ford/JMC)",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Vehicle dealer",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 190,
+    "name": "Ries Engineering (Caterpillar)",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Heavy-equipment dealer",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 191,
+    "name": "Equatorial Business Group",
+    "sectorGroup": "Automotive dealer / assembler",
+    "whatTheyDo": "Vehicle & equipment dealer",
+    "whyFit": "Dealer/assembler — parts runs + could add e-bikes to its portfolio",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 192,
+    "name": "Ethiopian Skylight Hotel",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Large hotel (Ethiopian Airlines)",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 193,
+    "name": "Sheraton Addis",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "5-star (MIDROC)",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 194,
+    "name": "Hilton Addis Ababa",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "5-star, large campus",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 195,
+    "name": "Hyatt Regency Addis Ababa",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "5-star",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 196,
+    "name": "Radisson Blu Addis Ababa",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "5-star",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 197,
+    "name": "Haile Grand / Haile Hospitality",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Hotel & resort chain",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 198,
+    "name": "Kuriftu Resort & Spa (Boston Partners)",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Resort chain",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Bishoftu/Addis"
+  },
+  {
+    "num": 199,
+    "name": "Golden Tulip Addis Ababa",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "4-star",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 200,
+    "name": "Capital Hotel & Spa",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "4-star",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 201,
+    "name": "Elilly International Hotel",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "4-star",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 202,
+    "name": "Jupiter International Hotel",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Hotel (2 branches)",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 203,
+    "name": "Friendship International Hotel",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Hotel",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 204,
+    "name": "Ramada by Wyndham Addis",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Hotel",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 205,
+    "name": "Inter Luxury Hotel",
+    "sectorGroup": "Hotel / hospitality",
+    "whatTheyDo": "Hotel",
+    "whyFit": "Guest errands, document runs & staff mobility across a large campus; green-PR angle",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 206,
+    "name": "Addis Ababa University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Largest university, multi-campus",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 207,
+    "name": "St. Mary's University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private, ~30,000 students, multi-campus",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 208,
+    "name": "Unity University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private, multi-campus (Al-Amoudi)",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Medium",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 209,
+    "name": "Addis Ababa Science & Technology University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Public STEM university",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 210,
+    "name": "Admas University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private, multi-campus",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 211,
+    "name": "Rift Valley University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private, many campuses",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 212,
+    "name": "Kotebe University of Education",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Public university",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 213,
+    "name": "Ethiopian Civil Service University",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Public university",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 214,
+    "name": "Microlink IT College",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private IT college",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis/Mekelle"
+  },
+  {
+    "num": 215,
+    "name": "HiLCoE / other private colleges",
+    "sectorGroup": "University / college",
+    "whatTheyDo": "Private colleges (many)",
+    "whyFit": "Inter-campus documents & admin mail; large multi-campus footprint",
+    "fitType": "NEW",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 216,
+    "name": "Ethiopian Red Cross Society",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Humanitarian; 10,000+ staff, national fleet",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 217,
+    "name": "World Food Programme (WFP) Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Largest humanitarian logistics operation",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 218,
+    "name": "UNICEF Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Child health/education, national programs",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 219,
+    "name": "Save the Children Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Large child-focused INGO, big fleet",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 220,
+    "name": "World Vision Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Large INGO, national field presence",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 221,
+    "name": "International Committee of the Red Cross (ICRC)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Humanitarian, large fleet",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 222,
+    "name": "International Rescue Committee (IRC)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Emergency aid & health",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 223,
+    "name": "CARE Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Development & humanitarian",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 224,
+    "name": "Catholic Relief Services (CRS)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Development & humanitarian",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 225,
+    "name": "Oxfam Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Development & humanitarian",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 226,
+    "name": "Danish Refugee Council (DRC)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Refugee/displacement response",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 227,
+    "name": "Norwegian Refugee Council (NRC)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Refugee/displacement response",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 228,
+    "name": "Mercy Corps Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Development & humanitarian",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 229,
+    "name": "Plan International Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Child-focused development",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 230,
+    "name": "GIZ Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "German development agency, large ops",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 231,
+    "name": "Amref Health Africa Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Health NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 232,
+    "name": "Population Services International (PSI)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Health products distribution",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 233,
+    "name": "Marie Stopes International Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Reproductive health, field distribution",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 234,
+    "name": "ChildFund Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Child protection & development",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 235,
+    "name": "GOAL Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Humanitarian & development",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 236,
+    "name": "Concern Worldwide Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Humanitarian & development",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 237,
+    "name": "SOS Children's Villages Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Child care",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 238,
+    "name": "Pathfinder International Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Health NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 239,
+    "name": "SNV Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Development organisation",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 240,
+    "name": "Farm Africa",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Agriculture/livelihoods NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 241,
+    "name": "Clinton Health Access Initiative (CHAI)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Health systems NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 242,
+    "name": "PATH Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Global health NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 243,
+    "name": "JSI (John Snow Inc.)",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Health implementer",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 244,
+    "name": "AIDS Healthcare Foundation Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "HIV care, 19 facilities",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis + regional"
+  },
+  {
+    "num": 245,
+    "name": "Hailemariam & Roman Foundation",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Local development foundation",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 246,
+    "name": "Rainforest Alliance Ethiopia",
+    "sectorGroup": "NGO / development",
+    "whatTheyDo": "Sustainable agriculture NGO",
+    "whyFit": "Runs vehicle fleets for field/city work — convert to e-bikes; strong green & cost mandate",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 247,
+    "name": "African Union Commission (AU)",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "Continental HQ; huge campus, 55 member states",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 248,
+    "name": "UN Economic Commission for Africa (UNECA)",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN regional HQ campus",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "High",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 249,
+    "name": "UNDP Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN development agency",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 250,
+    "name": "UNHCR Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN refugee agency, large field ops",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 251,
+    "name": "WHO Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN health agency",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 252,
+    "name": "FAO Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN food & agriculture agency",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 253,
+    "name": "IOM Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "UN migration agency, large fleet",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + field"
+  },
+  {
+    "num": 254,
+    "name": "UN OCHA Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "Humanitarian coordination",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 255,
+    "name": "World Bank Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "Development finance office",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 256,
+    "name": "European Union Delegation to Ethiopia",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "EU mission",
+    "whyFit": "Large HQ campus + city document runs; sustainability mandate fits e-mobility",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 257,
+    "name": "Embassies (US, UK, China, India, EU states, etc.)",
+    "sectorGroup": "International org / diplomatic",
+    "whatTheyDo": "Diplomatic missions with vehicle fleets",
+    "whyFit": "Missions run fleets & need city document runs; green procurement mandates",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 258,
+    "name": "TotalEnergies Ethiopia",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "Fuel retail & distribution network",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 259,
+    "name": "OiLibya (Oilibya) Ethiopia",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "Fuel retail & distribution",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 260,
+    "name": "NOC (National Oil Company) Ethiopia",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "Fuel retail & distribution",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Medium",
+    "hqPresence": "Addis + nationwide"
+  },
+  {
+    "num": 261,
+    "name": "Ethiopian Petroleum Supply Enterprise",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "State fuel supply",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 262,
+    "name": "Dalol Oil",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "Fuel distributor",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  },
+  {
+    "num": 263,
+    "name": "Nile Petroleum (NilePet)",
+    "sectorGroup": "Fuel / energy",
+    "whatTheyDo": "Fuel distributor",
+    "whyFit": "Runs delivery/field fleets; could cut costs or diversify into e-mobility retail",
+    "fitType": "SHIFT",
+    "priority": "Watch",
+    "hqPresence": "Addis Ababa"
+  }
+]
