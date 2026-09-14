@@ -6,8 +6,14 @@ researched for Sanpolo's e-bike sales pitch.
 
 ## What it does
 
-- **Companies list** — all prospects with sector, priority, fit type (NEW / SHIFT / FLEET),
-  and pipeline status. Filter and search by any of these.
+- **Three separate lists**, each with its own page (`/outbound`, `/proformas`, `/inbound`),
+  plus an "All" view (`/companies`) across everything:
+  - **Outbound Prospects** — the 263 researched companies, cold-outreach from scratch.
+  - **Proforma Follow-Ups** — companies/individuals who previously asked for a proforma.
+  - **Inbound Leads** — people/companies who called or came in on their own.
+  A company can be moved between lists at any time from its detail page ("List" field).
+- Each list has sector, priority, fit type (NEW / SHIFT / FLEET), and pipeline status
+  filters, plus search.
 - **Company detail page** — for each company:
   - Log **contacts** you find (name, title, department, phone, email) — mark the one you
     should call (typically someone in purchasing / procurement / operations) as primary.

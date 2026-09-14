@@ -3,11 +3,14 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
-import { Status } from "@/lib/types";
+import { SOURCES, Source, Status } from "@/lib/types";
 
 function refreshCompany(id: number) {
   revalidatePath(`/companies/${id}`);
   revalidatePath("/companies");
+  revalidatePath("/outbound");
+  revalidatePath("/proformas");
+  revalidatePath("/inbound");
   revalidatePath("/");
 }
 
@@ -19,6 +22,10 @@ export async function updateCompanyStatus(id: number, status: Status) {
 }
 
 export async function updateCompanyDetails(id: number, formData: FormData) {
+  const sourceRaw = formData.get("source")?.toString();
+  const source = SOURCES.includes(sourceRaw as Source)
+    ? (sourceRaw as Source)
+    : undefined;
   const fields = {
     priority: formData.get("priority")?.toString() || null,
     next_step: formData.get("next_step")?.toString() || null,
@@ -38,22 +45,28 @@ export async function updateCompanyDetails(id: number, formData: FormData) {
       general_phone = @general_phone,
       general_email = @general_email,
       notes = @notes,
+      source = COALESCE(@source, source),
       updated_at = datetime('now')
     WHERE id = @id`,
-  ).run({ ...fields, id });
+  ).run({ ...fields, source: source ?? null, id });
   refreshCompany(id);
 }
 
 export async function createCompany(formData: FormData) {
   const name = formData.get("name")?.toString().trim();
   if (!name) return;
+  const sourceRaw = formData.get("source")?.toString();
+  const source = SOURCES.includes(sourceRaw as Source)
+    ? (sourceRaw as Source)
+    : "outbound";
   const info = db
     .prepare(
-      `INSERT INTO companies (name, sector_group, priority, fit_type, hq_presence, status)
-       VALUES (?, ?, ?, 'NEW', ?, 'new')`,
+      `INSERT INTO companies (name, source, sector_group, priority, fit_type, hq_presence, status)
+       VALUES (?, ?, ?, ?, 'NEW', ?, 'new')`,
     )
     .run(
       name,
+      source,
       formData.get("sector_group")?.toString() || null,
       formData.get("priority")?.toString() || "Medium",
       formData.get("hq_presence")?.toString() || null,

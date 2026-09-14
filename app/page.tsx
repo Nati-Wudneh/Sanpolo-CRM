@@ -1,13 +1,31 @@
 import Link from "next/link";
 import { db } from "@/lib/db";
-import { Company, STATUS_LABELS, Status } from "@/lib/types";
+import {
+  Company,
+  SOURCE_LABELS,
+  SOURCES,
+  STATUS_LABELS,
+  Source,
+  Status,
+} from "@/lib/types";
 
 export const dynamic = "force-dynamic";
+
+const SOURCE_ROUTES: Record<Source, string> = {
+  outbound: "/outbound",
+  proforma_followup: "/proformas",
+  inbound: "/inbound",
+};
 
 export default function Dashboard() {
   const total = (
     db.prepare("SELECT COUNT(*) as n FROM companies").get() as { n: number }
   ).n;
+
+  const bySource = db
+    .prepare("SELECT source, COUNT(*) as n FROM companies GROUP BY source")
+    .all() as { source: Source; n: number }[];
+  const sourceMap = Object.fromEntries(bySource.map((r) => [r.source, r.n]));
 
   const byStatus = db
     .prepare(
@@ -64,6 +82,23 @@ export default function Dashboard() {
         <p className="text-slate-500 mt-1">
           Prospect tracking for e-bike outreach across Ethiopia.
         </p>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {SOURCES.map((s) => (
+          <Link
+            key={s}
+            href={SOURCE_ROUTES[s]}
+            className="rounded-lg border border-slate-200 bg-white p-4 hover:border-emerald-300 hover:shadow-sm transition"
+          >
+            <div className="text-2xl font-semibold text-slate-900">
+              {sourceMap[s] ?? 0}
+            </div>
+            <div className="text-sm text-slate-500 mt-0.5">
+              {SOURCE_LABELS[s]}
+            </div>
+          </Link>
+        ))}
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">

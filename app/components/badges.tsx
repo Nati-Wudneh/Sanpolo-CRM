@@ -1,4 +1,11 @@
-import { Status, STATUS_COLORS, STATUS_LABELS } from "@/lib/types";
+import {
+  SOURCE_COLORS,
+  SOURCE_SHORT_LABELS,
+  Source,
+  Status,
+  STATUS_COLORS,
+  STATUS_LABELS,
+} from "@/lib/types";
 
 export function StatusBadge({ status }: { status: string }) {
   const s = status as Status;
@@ -40,6 +47,16 @@ const FIT_COLORS: Record<string, string> = {
   SHIFT: "bg-cyan-100 text-cyan-700 ring-cyan-300",
   FLEET: "bg-fuchsia-100 text-fuchsia-700 ring-fuchsia-300",
 };
+
+export function SourceBadge({ source }: { source: Source }) {
+  return (
+    <span
+      className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ring-inset ${SOURCE_COLORS[source]}`}
+    >
+      {SOURCE_SHORT_LABELS[source]}
+    </span>
+  );
+}
 
 export function FitBadge({ fitType }: { fitType: string | null }) {
   if (!fitType) return null;

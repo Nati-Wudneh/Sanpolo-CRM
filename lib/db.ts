@@ -23,6 +23,7 @@ function createConnection() {
     CREATE TABLE IF NOT EXISTS companies (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL,
+      source TEXT NOT NULL DEFAULT 'outbound',
       sector_group TEXT,
       what_they_do TEXT,
       why_fit TEXT,
@@ -67,7 +68,17 @@ function createConnection() {
     CREATE INDEX IF NOT EXISTS idx_contacts_company ON contacts(company_id);
     CREATE INDEX IF NOT EXISTS idx_interactions_company ON interactions(company_id);
     CREATE INDEX IF NOT EXISTS idx_companies_status ON companies(status);
+    CREATE INDEX IF NOT EXISTS idx_companies_source ON companies(source);
   `);
+
+  const companyColumns = (
+    db.prepare("PRAGMA table_info(companies)").all() as { name: string }[]
+  ).map((c) => c.name);
+  if (!companyColumns.includes("source")) {
+    db.exec(
+      "ALTER TABLE companies ADD COLUMN source TEXT NOT NULL DEFAULT 'outbound'",
+    );
+  }
 
   const count = (
     db.prepare("SELECT COUNT(*) as n FROM companies").get() as { n: number }
@@ -76,8 +87,8 @@ function createConnection() {
   if (count === 0) {
     const insert = db.prepare(`
       INSERT INTO companies
-        (name, sector_group, what_they_do, why_fit, fit_type, priority, hq_presence, status)
-      VALUES (@name, @sectorGroup, @whatTheyDo, @whyFit, @fitType, @priority, @hqPresence, 'new')
+        (name, source, sector_group, what_they_do, why_fit, fit_type, priority, hq_presence, status)
+      VALUES (@name, 'outbound', @sectorGroup, @whatTheyDo, @whyFit, @fitType, @priority, @hqPresence, 'new')
     `);
     const insertMany = db.transaction((rows: typeof prospects) => {
       for (const row of rows) insert.run(row);

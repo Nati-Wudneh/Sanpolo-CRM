@@ -1,3 +1,34 @@
+export const SOURCES = ["outbound", "proforma_followup", "inbound"] as const;
+
+export type Source = (typeof SOURCES)[number];
+
+export const SOURCE_LABELS: Record<Source, string> = {
+  outbound: "Outbound Prospects",
+  proforma_followup: "Proforma Follow-Ups",
+  inbound: "Inbound Leads",
+};
+
+export const SOURCE_SHORT_LABELS: Record<Source, string> = {
+  outbound: "Outbound",
+  proforma_followup: "Proforma Follow-Up",
+  inbound: "Inbound",
+};
+
+export const SOURCE_DESCRIPTIONS: Record<Source, string> = {
+  outbound:
+    "Companies we researched ourselves and are cold-calling from scratch.",
+  proforma_followup:
+    "Companies or individuals who previously asked for a proforma — reach back out to them.",
+  inbound:
+    "People or companies who called or came in on their own asking about the bikes.",
+};
+
+export const SOURCE_COLORS: Record<Source, string> = {
+  outbound: "bg-blue-100 text-blue-700 ring-blue-300",
+  proforma_followup: "bg-amber-100 text-amber-700 ring-amber-300",
+  inbound: "bg-emerald-100 text-emerald-700 ring-emerald-300",
+};
+
 export const STATUSES = [
   "new",
   "researching",
@@ -74,6 +105,7 @@ export const INTERACTION_OUTCOME_LABELS: Record<InteractionOutcome, string> =
 export interface Company {
   id: number;
   name: string;
+  source: Source;
   sector_group: string | null;
   what_they_do: string | null;
   why_fit: string | null;

@@ -25,8 +25,17 @@ export default function RootLayout({
               <Link href="/" className="text-slate-600 hover:text-slate-900">
                 Dashboard
               </Link>
+              <Link href="/outbound" className="text-slate-600 hover:text-slate-900">
+                Outbound
+              </Link>
+              <Link href="/proformas" className="text-slate-600 hover:text-slate-900">
+                Proforma Follow-Ups
+              </Link>
+              <Link href="/inbound" className="text-slate-600 hover:text-slate-900">
+                Inbound
+              </Link>
               <Link href="/companies" className="text-slate-600 hover:text-slate-900">
-                Companies
+                All
               </Link>
               <Link
                 href="/companies/new"

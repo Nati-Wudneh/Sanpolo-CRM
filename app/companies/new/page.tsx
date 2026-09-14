@@ -1,7 +1,17 @@
 import { createCompany } from "@/lib/actions";
+import { SOURCE_LABELS, SOURCES, Source } from "@/lib/types";
 import Link from "next/link";
 
-export default function NewCompanyPage() {
+export default async function NewCompanyPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ source?: string }>;
+}) {
+  const sp = await searchParams;
+  const defaultSource: Source = SOURCES.includes(sp.source as Source)
+    ? (sp.source as Source)
+    : "outbound";
+
   return (
     <div className="max-w-xl space-y-5">
       <div>
@@ -12,7 +22,7 @@ export default function NewCompanyPage() {
           Add a company
         </h1>
         <p className="text-slate-500 text-sm mt-1">
-          Add a prospect that wasn&apos;t on the original research list.
+          Add a company or contact you&apos;re tracking that wasn&apos;t already loaded.
         </p>
       </div>
 
@@ -20,6 +30,22 @@ export default function NewCompanyPage() {
         action={createCompany}
         className="bg-white border border-slate-200 rounded-lg p-5 space-y-4"
       >
+        <div>
+          <label className="block text-sm font-medium text-slate-700 mb-1">
+            List
+          </label>
+          <select
+            name="source"
+            defaultValue={defaultSource}
+            className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm"
+          >
+            {SOURCES.map((s) => (
+              <option key={s} value={s}>
+                {SOURCE_LABELS[s]}
+              </option>
+            ))}
+          </select>
+        </div>
         <Field label="Company name" name="name" required />
         <Field label="Sector / industry" name="sector_group" />
         <Field label="HQ / presence" name="hq_presence" placeholder="e.g. Addis Ababa" />

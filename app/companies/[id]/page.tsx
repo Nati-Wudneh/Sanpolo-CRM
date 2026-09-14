@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { db } from "@/lib/db";
 import { Company, Contact, Interaction } from "@/lib/types";
-import { FitBadge, PriorityBadge } from "@/app/components/badges";
+import { FitBadge, PriorityBadge, SourceBadge } from "@/app/components/badges";
 import { StatusSelector } from "./StatusSelector";
 import { ContactsSection } from "./ContactsSection";
 import { InteractionsSection } from "./InteractionsSection";
@@ -53,6 +53,7 @@ export default async function CompanyDetailPage({
               {company.name}
             </h1>
             <div className="flex items-center gap-2 mt-2 flex-wrap">
+              <SourceBadge source={company.source} />
               <PriorityBadge priority={company.priority} />
               <FitBadge fitType={company.fit_type} />
               {company.sector_group && (

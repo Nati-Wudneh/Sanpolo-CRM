@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { updateCompanyDetails } from "@/lib/actions";
-import { Company } from "@/lib/types";
+import { Company, SOURCE_LABELS, SOURCES } from "@/lib/types";
 
 export function DetailsForm({ company }: { company: Company }) {
   const [saved, setSaved] = useState(false);
@@ -16,6 +16,23 @@ export function DetailsForm({ company }: { company: Company }) {
       }}
       className="space-y-4"
     >
+      <div>
+        <label className="block text-xs font-medium text-slate-500 mb-1">
+          List
+        </label>
+        <select
+          name="source"
+          defaultValue={company.source}
+          className="w-full rounded-md border border-slate-300 px-2.5 py-1.5 text-sm bg-white"
+        >
+          {SOURCES.map((s) => (
+            <option key={s} value={s}>
+              {SOURCE_LABELS[s]}
+            </option>
+          ))}
+        </select>
+      </div>
+
       <div className="grid grid-cols-2 gap-3">
         <div>
           <label className="block text-xs font-medium text-slate-500 mb-1">
