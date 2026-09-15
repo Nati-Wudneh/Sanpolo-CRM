@@ -3,6 +3,8 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { db } from "@/lib/db";
+import { disconnectGmail } from "@/lib/google";
+import { sendEmail } from "@/lib/gmail";
 import { SOURCES, Source, Status } from "@/lib/types";
 
 function refreshCompany(id: number) {
@@ -11,6 +13,8 @@ function refreshCompany(id: number) {
   revalidatePath("/outbound");
   revalidatePath("/proformas");
   revalidatePath("/inbound");
+  revalidatePath("/pipeline");
+  revalidatePath("/contacts");
   revalidatePath("/");
 }
 
@@ -34,7 +38,6 @@ export async function updateCompanyDetails(id: number, formData: FormData) {
     website: formData.get("website")?.toString() || null,
     general_phone: formData.get("general_phone")?.toString() || null,
     general_email: formData.get("general_email")?.toString() || null,
-    notes: formData.get("notes")?.toString() || null,
   };
   db.prepare(
     `UPDATE companies SET
@@ -44,11 +47,17 @@ export async function updateCompanyDetails(id: number, formData: FormData) {
       website = @website,
       general_phone = @general_phone,
       general_email = @general_email,
-      notes = @notes,
       source = COALESCE(@source, source),
       updated_at = datetime('now')
     WHERE id = @id`,
   ).run({ ...fields, source: source ?? null, id });
+  refreshCompany(id);
+}
+
+export async function updateCompanyNotes(id: number, notes: string) {
+  db.prepare(
+    "UPDATE companies SET notes = ?, updated_at = datetime('now') WHERE id = ?",
+  ).run(notes || null, id);
   refreshCompany(id);
 }
 
@@ -81,9 +90,9 @@ export async function deleteCompany(id: number) {
   redirect("/companies");
 }
 
-export async function addContact(companyId: number, formData: FormData) {
+function insertContact(companyId: number, formData: FormData): boolean {
   const name = formData.get("name")?.toString().trim();
-  if (!name) return;
+  if (!name) return false;
   const isPrimary = formData.get("is_primary") ? 1 : 0;
   if (isPrimary) {
     db.prepare("UPDATE contacts SET is_primary = 0 WHERE company_id = ?").run(
@@ -117,7 +126,20 @@ export async function addContact(companyId: number, formData: FormData) {
       ).run(companyId);
     }
   }
+  return true;
+}
+
+export async function addContact(companyId: number, formData: FormData) {
+  insertContact(companyId, formData);
   refreshCompany(companyId);
+}
+
+export async function createContactStandalone(formData: FormData) {
+  const companyId = Number(formData.get("company_id"));
+  if (!companyId) return;
+  const created = insertContact(companyId, formData);
+  refreshCompany(companyId);
+  if (created) redirect("/contacts");
 }
 
 export async function updateContact(
@@ -201,4 +223,67 @@ export async function addInteraction(companyId: number, formData: FormData) {
 export async function deleteInteraction(id: number, companyId: number) {
   db.prepare("DELETE FROM interactions WHERE id = ?").run(id);
   refreshCompany(companyId);
+}
+
+/**
+ * Creates a call interaction the instant someone clicks a phone number, so the
+ * call is registered even if they never come back to fill in the outcome.
+ * Returns the new interaction id so the UI can offer to fill in details right away.
+ */
+export async function quickLogCall(
+  companyId: number,
+  contactId: number | null,
+) {
+  const info = db
+    .prepare(
+      `INSERT INTO interactions (company_id, contact_id, type, occurred_at)
+       VALUES (?, ?, 'call', datetime('now'))`,
+    )
+    .run(companyId, contactId);
+  refreshCompany(companyId);
+  return { id: Number(info.lastInsertRowid) };
+}
+
+export async function updateInteractionDetails(
+  id: number,
+  companyId: number,
+  outcome: string,
+  summary: string,
+) {
+  db.prepare(
+    `UPDATE interactions SET outcome = @outcome, summary = @summary WHERE id = @id`,
+  ).run({
+    id,
+    outcome: outcome || null,
+    summary: summary || null,
+  });
+  refreshCompany(companyId);
+}
+
+export async function disconnectGmailAction() {
+  disconnectGmail();
+  revalidatePath("/settings");
+}
+
+export async function sendCompanyEmail(
+  companyId: number,
+  contactId: number | null,
+  to: string,
+  subject: string,
+  body: string,
+): Promise<{ ok: true } | { ok: false; error: string }> {
+  try {
+    await sendEmail({ to, subject, body });
+  } catch (err) {
+    return {
+      ok: false,
+      error: err instanceof Error ? err.message : "Failed to send email.",
+    };
+  }
+  db.prepare(
+    `INSERT INTO interactions (company_id, contact_id, type, summary, occurred_at)
+     VALUES (?, ?, 'email', ?, datetime('now'))`,
+  ).run(companyId, contactId, `Sent to ${to} — Subject: ${subject}\n\n${body}`);
+  refreshCompany(companyId);
+  return { ok: true };
 }

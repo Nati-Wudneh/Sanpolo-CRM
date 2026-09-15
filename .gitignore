@@ -27,6 +27,8 @@
 # database
 /data/crm.db
 /data/crm.db-journal
+/data/crm.db-wal
+/data/crm.db-shm
 
 # debug
 npm-debug.log*
@@ -36,6 +38,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel

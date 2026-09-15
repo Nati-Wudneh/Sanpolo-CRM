@@ -16,26 +16,38 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-slate-50 text-slate-900">
         <header className="border-b border-slate-200 bg-white sticky top-0 z-10">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14">
-            <Link href="/" className="font-semibold text-slate-900 flex items-center gap-2">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-14 gap-4 overflow-x-auto">
+            <Link
+              href="/"
+              className="font-semibold text-slate-900 flex items-center gap-2 shrink-0"
+            >
               <span className="inline-block h-6 w-6 rounded bg-emerald-600" />
               Sanpolo CRM
             </Link>
-            <nav className="flex items-center gap-5 text-sm">
+            <nav className="flex items-center gap-4 text-sm shrink-0">
               <Link href="/" className="text-slate-600 hover:text-slate-900">
                 Dashboard
+              </Link>
+              <Link href="/pipeline" className="text-slate-600 hover:text-slate-900">
+                Pipeline
               </Link>
               <Link href="/outbound" className="text-slate-600 hover:text-slate-900">
                 Outbound
               </Link>
               <Link href="/proformas" className="text-slate-600 hover:text-slate-900">
-                Proforma Follow-Ups
+                Proformas
               </Link>
               <Link href="/inbound" className="text-slate-600 hover:text-slate-900">
                 Inbound
               </Link>
               <Link href="/companies" className="text-slate-600 hover:text-slate-900">
                 All
+              </Link>
+              <Link href="/contacts" className="text-slate-600 hover:text-slate-900">
+                Contacts
+              </Link>
+              <Link href="/settings" className="text-slate-600 hover:text-slate-900">
+                Settings
               </Link>
               <Link
                 href="/companies/new"

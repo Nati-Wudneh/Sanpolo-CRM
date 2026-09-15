@@ -7,6 +7,9 @@ import { StatusSelector } from "./StatusSelector";
 import { ContactsSection } from "./ContactsSection";
 import { InteractionsSection } from "./InteractionsSection";
 import { DetailsForm } from "./DetailsForm";
+import { NotesSection } from "./NotesSection";
+import { GmailSection } from "./GmailSection";
+import { CallButton } from "./CallButton";
 import { deleteCompany } from "@/lib/actions";
 import { ConfirmDeleteButton } from "@/app/components/ConfirmDeleteButton";
 
@@ -67,6 +70,20 @@ export default async function CompanyDetailPage({
                 </span>
               )}
             </div>
+            {(company.general_phone || company.general_email) && (
+              <div className="flex items-center gap-4 mt-2 text-sm">
+                {company.general_phone && (
+                  <CallButton
+                    companyId={company.id}
+                    contactId={null}
+                    phone={company.general_phone}
+                  />
+                )}
+                {company.general_email && (
+                  <span className="text-slate-500">{company.general_email}</span>
+                )}
+              </div>
+            )}
           </div>
           <StatusSelector companyId={company.id} status={company.status} />
         </div>
@@ -120,6 +137,11 @@ export default async function CompanyDetailPage({
           <h2 className="font-semibold text-slate-900 mb-4">Company details</h2>
           <DetailsForm company={company} />
         </section>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <NotesSection companyId={company.id} notes={company.notes} />
+        <GmailSection companyId={company.id} contacts={contacts} />
       </div>
 
       <InteractionsSection

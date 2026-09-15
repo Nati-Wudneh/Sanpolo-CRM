@@ -113,19 +113,6 @@ export function DetailsForm({ company }: { company: Company }) {
         />
       </div>
 
-      <div>
-        <label className="block text-xs font-medium text-slate-500 mb-1">
-          Notes
-        </label>
-        <textarea
-          name="notes"
-          rows={3}
-          defaultValue={company.notes ?? ""}
-          placeholder="Research notes, referral info, anything useful before you call"
-          className="w-full rounded-md border border-slate-300 px-2.5 py-1.5 text-sm"
-        />
-      </div>
-
       <div className="flex items-center gap-3">
         <button
           type="submit"

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { addContact, deleteContact, updateContact } from "@/lib/actions";
 import { Contact } from "@/lib/types";
 import { ConfirmDeleteButton } from "@/app/components/ConfirmDeleteButton";
+import { CallButton } from "./CallButton";
 
 export function ContactsSection({
   companyId,
@@ -159,8 +160,14 @@ function ContactRow({
         <div className="text-sm text-slate-500">
           {[contact.title, contact.department].filter(Boolean).join(" · ")}
         </div>
-        <div className="text-sm text-slate-500 mt-1 flex gap-3 flex-wrap">
-          {contact.phone && <span>{contact.phone}</span>}
+        <div className="text-sm text-slate-500 mt-1 flex gap-3 flex-wrap items-center">
+          {contact.phone && (
+            <CallButton
+              companyId={companyId}
+              contactId={contact.id}
+              phone={contact.phone}
+            />
+          )}
           {contact.email && <span>{contact.email}</span>}
         </div>
         {contact.notes && (
