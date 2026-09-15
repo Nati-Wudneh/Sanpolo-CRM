@@ -2,6 +2,7 @@ import Database from "better-sqlite3";
 import path from "path";
 import fs from "fs";
 import prospects from "@/data/prospects.json";
+import proformaFollowUps from "@/data/proforma_followups.json";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const DB_PATH = path.join(DATA_DIR, "crm.db");
@@ -95,6 +96,52 @@ function createConnection() {
     });
     insertMany(prospects);
   }
+
+  // Two names on the proforma follow-up list turned out to already be on the
+  // outbound research list (Gift Real Estate, Gadaa Bank) — since they've
+  // since asked for a proforma, reclassify those existing rows instead of
+  // creating duplicates. Guarded on source = 'outbound' so this only fires once.
+  const reclassify = db.prepare(`
+    UPDATE companies SET
+      source = 'proforma_followup',
+      notes = CASE
+        WHEN notes IS NULL OR notes = '' THEN @note
+        ELSE notes || char(10) || char(10) || @note
+      END,
+      updated_at = datetime('now')
+    WHERE name = @name AND source = 'outbound'
+  `);
+  reclassify.run({
+    name: "Gift Real Estate",
+    note: "Moved from Outbound Prospects to Proforma Follow-Ups — already on the outbound research list under this name, but has since asked for a proforma.",
+  });
+  reclassify.run({
+    name: "Gadaa Bank",
+    note: 'Moved from Outbound Prospects to Proforma Follow-Ups — already on the outbound research list (given as "Gadda bank"), but has since asked for a proforma.',
+  });
+
+  const insertProforma = db.prepare(`
+    INSERT INTO companies
+      (name, source, sector_group, hq_presence, website, notes, status)
+    VALUES (@name, 'proforma_followup', @sectorGroup, @hqPresence, @website, @notes, 'new')
+  `);
+  const findByName = db.prepare(
+    "SELECT id FROM companies WHERE lower(name) = lower(?)",
+  );
+  const seedProforma = db.transaction((rows: typeof proformaFollowUps) => {
+    for (const row of rows) {
+      if (!findByName.get(row.name)) {
+        insertProforma.run({
+          name: row.name,
+          sectorGroup: row.sectorGroup ?? null,
+          hqPresence: row.hqPresence ?? null,
+          website: (row as { website?: string }).website ?? null,
+          notes: row.notes ?? null,
+        });
+      }
+    }
+  });
+  seedProforma(proformaFollowUps);
 
   return db;
 }
