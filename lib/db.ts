@@ -4,10 +4,13 @@ import fs from "fs";
 import prospects from "@/data/prospects.json";
 import proformaFollowUps from "@/data/proforma_followups.json";
 
-const DATA_DIR = path.join(process.cwd(), "data");
+// In production, point DB_DIR at a persistent volume (e.g. Railway) —
+// otherwise the database is lost on every redeploy/restart. Defaults to
+// ./data for local development.
+const DATA_DIR = process.env.DB_DIR || path.join(process.cwd(), "data");
 const DB_PATH = path.join(DATA_DIR, "crm.db");
 
-if (!fs.existsSync(DATA_DIR)) {
+if (!fs.existsSync(/* turbopackIgnore: true */ DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 

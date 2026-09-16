@@ -61,6 +61,11 @@ automatically from `data/prospects.json`.
 
 Data is stored locally in a SQLite file at `data/crm.db` (not committed to git).
 
+## Deploying it live
+
+See `DEPLOY.md` for the full walkthrough (Railway + a persistent volume + a
+shared login password).
+
 ## Stack
 
 Next.js (App Router) + TypeScript + Tailwind CSS + SQLite (`better-sqlite3`), using React

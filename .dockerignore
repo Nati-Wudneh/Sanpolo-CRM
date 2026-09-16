@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+data/crm.db
+data/crm.db-journal
+data/crm.db-wal
+data/crm.db-shm
+.env*
+!.env.example
+npm-debug.log*

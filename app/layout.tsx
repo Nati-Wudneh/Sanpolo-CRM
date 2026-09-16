@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { logout } from "@/lib/auth-actions";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -55,6 +56,16 @@ export default function RootLayout({
               >
                 + Add Company
               </Link>
+              {process.env.APP_PASSWORD && (
+                <form action={logout}>
+                  <button
+                    type="submit"
+                    className="text-slate-400 hover:text-slate-700"
+                  >
+                    Log out
+                  </button>
+                </form>
+              )}
             </nav>
           </div>
         </header>
